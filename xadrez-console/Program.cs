@@ -36,8 +36,9 @@ namespace xadrez_console {
                         Console.ReadLine();
                     }
                 }
-
-                Tela.imprimiTabuleiro(partida.tab);
+                Console.Clear();
+                Tela.imprimirPartida(partida);
+                //Tela.imprimiTabuleiro(partida.tab);
                
 
         }
@@ -52,7 +53,7 @@ namespace xadrez_console {
 
             Console.WriteLine(pos.toPosicao());
             */
-            Console.ReadLine();
+           // Console.ReadLine();
         }
     }
 }
